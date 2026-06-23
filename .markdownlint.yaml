@@ -1,0 +1,15 @@
+default: true
+
+# Unordered list indentation (2 spaces per The Turing Way style)
+MD007:
+  indent: 2
+
+# Ordered list items should use sequential numbers
+MD029:
+  style: ordered
+
+# Allow bare URLs (The Turing Way uses https:// links explicitly)
+MD034: false
+
+# Line length — disable, not relevant for sentence-per-line style
+MD013: false
